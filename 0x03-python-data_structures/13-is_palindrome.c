@@ -1,14 +1,12 @@
 #include "lists.h"
-
-listint_t *reverse_listint(listint_t **head);
-int is_palindrome(listint_t **head);
+#include <stdio.h>
+#include <stddef.h>
 
 /**
- * reverse_listint - function in C that checks if a singly 
- * linked list is a palindrome.
+ * reverse_listint - Reverses a singly-linked listint_t list.
  * @head: A pointer to the starting node of the list to reverse.
  *
- * Return: 0 if it is not a palindrome, 1 if it is a palindrome
+ * Return: A pointer to the head of the reversed list.
  */
 listint_t *reverse_listint(listint_t **head)
 {
@@ -71,4 +69,3 @@ int is_palindrome(listint_t **head)
 
 	return (1);
 }
-
