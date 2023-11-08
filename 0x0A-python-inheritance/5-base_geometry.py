@@ -3,4 +3,3 @@
 
 class BaseGeometry:
     pass
-
